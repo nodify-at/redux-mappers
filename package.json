@@ -1,6 +1,6 @@
 {
   "name": "redux-mappers",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Redux decorators to map from state to props or map actions to props",
   "main": "dist/index.js",
   "scripts": {
