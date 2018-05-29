@@ -1,12 +1,16 @@
 {
   "name": "redux-mappers",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Redux decorators to map from state to props or map actions to props",
   "main": "dist/index.js",
   "scripts": {
     "develop": "tsc --pretty --watch -p tsconfig.json",
     "build": "rm -rf ./dist && tsc -d --pretty -p tsconfig.json --sourceMap false --outdir ./dist",
     "test": "jest"
+  },
+  "repository": {
+    "url": "https://github.com/nodify-at/redux-mappers.git",
+    "type": "git"
   },
   "sideEffects": false,
   "keywords": [
