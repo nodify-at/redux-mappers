@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module"                 : "commonjs",
+        "removeComments"         : true,
+        "preserveConstEnums"     : true,
+        "moduleResolution"       : "node",
+        "target"                 : "es6",
+        "experimentalDecorators" : true,
+        "emitDecoratorMetadata"  : true,
+        "rootDir"                : "src",
+        "typeRoots"              : [ "node_modules/@types" ],
+        "jsx"                    : "react",
+
+        "forceConsistentCasingInFileNames"  : true,
+        "noFallthroughCasesInSwitch"        : true,
+        "noImplicitReturns"                 : true,
+        "noUnusedParameters"                : true,
+        "noImplicitAny"                     : true,
+        "noImplicitThis"                    : true,
+        "strictNullChecks"                  : true,
+
+        "noEmitOnError"                     : true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.spec.tsx",
+        "src/setupTests.ts"
+    ]
+}
